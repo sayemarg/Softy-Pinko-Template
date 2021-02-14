@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+    font-family: Raleway, serif, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+}
+
+/* Global Variables */
+:root {
+    --color-black: #1e1e1e;
+    --color-pink: #ff589e;
+    --color-purple: #8261ee;
+    --color-gray: #777777;
+}
+
+/* Change User Selected Text Style */
+::selection {
+    background: #ff589e;
+    color: #ffffff;
+}
+
+/* Responsive Heading */
+.responsive-heading {
+    font-size: 2em;
+    font-weight: 500;
+    margin: 1em 0;
+}
+
+/* For Each Section That Needed */
+.section {
+    padding: 70px 0;
+}
+.section__text {
+    margin: 0 auto 50px;
+    text-align: center;
+    width: 60%;
+}
+.section__heading {
+    color: var(--color-black);
+}
+.section__paragraph {
+    color: var(--color-gray);
+}
+
+/* a Tag That Is Button */
+.a-button {
+    background-color: var(--color-purple);
+    border-radius: 25px;
+    color: #ffffff;
+    display: inline-block;
+    margin: 25px 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+.a-button:hover {
+    background-color: var(--color-pink);
+    color: #ffffff;
+    text-decoration: none;
+}
